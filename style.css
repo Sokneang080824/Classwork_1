@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@200;400&family=Poppins:wght@100;200;400&display=swap');
+
+.navbar {
+    width: auto;
+    height: auto;
+    margin-top: 5vh;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box,
+.right-box {
+    width: 49%;
+    height: 100%;
+}
+
+.name {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-name,
+.last-name {
+    width: 49%;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    display: inline-block;
+    /* outline: none; */
+    outline-color: skyblue;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline-color: skyblue
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    outline-color: skyblue;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+input[class=Amount] {
+    margin: 0 5px 0 25px;
+}
+
+input[class=Other-Amount] {
+    width: 40%;
+}
+
+.card {
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+}
+
+.box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.info-box {
+    width: 25%;
+}
+
+.box2 {
+    margin-left: 40px;
+}
+
+.box3 {
+    margin-left: 20px;
+    width: 42%;
+}
+
+.Save {
+    width: 100%;
+    height: 70px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(20, 98, 63);
+}
+
+::placeholder {
+    padding: 0 7px;
+    font-size: 15px;
+}
